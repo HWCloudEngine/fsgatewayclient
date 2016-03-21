@@ -232,9 +232,9 @@ class OpenStackComputeShell(object):
 
     def get_base_parser(self):
         parser = FS_GatewayClientArgumentParser(
-            prog='fs-gateway',
+            prog='fsgateway',
             description=__doc__.strip(),
-            epilog='See "fs-gateway help COMMAND" '
+            epilog='See "fsgateway help COMMAND" '
                    'for help on a specific command.',
             add_help=False,
             formatter_class=OpenStackHelpFormatter,
